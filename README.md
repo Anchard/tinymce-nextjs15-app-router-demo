@@ -54,7 +54,7 @@ npm run dev
 ## 📁 Project Structure
 
 app/ 
-  └── page.tsx ← Main page with TinyMCE integration
+└── page.tsx ← Main page with TinyMCE integration
 
 ---
 
