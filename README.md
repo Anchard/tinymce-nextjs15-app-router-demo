@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TinyMCE + Next.js 15 (App Router) Integration
 
-## Getting Started
+This project is a **minimal, modern, and elegant demonstration** of how to integrate the **TinyMCE rich text editor** with **Next.js 15**, leveraging the new **App Router** architecture and **TypeScript**.
 
-First, run the development server:
+> 🔍 The official TinyMCE documentation currently lacks up-to-date examples for Next.js App Router and TypeScript. This repository bridges that gap with a clean, functional, and developer-friendly example.
 
-```bash
+📚 **Official Documentation**: [TinyMCE Documentation](https://www.tiny.cloud/docs/tinymce/latest/)
+
+---
+
+## 🚀 Features
+
+- ✅ Dynamically imports TinyMCE in an SSR-safe manner
+- ✅ Built with Next.js 15 using the new `app/` directory structure
+- ✅ Displays HTML preview of the editor content in the browser console
+- ✅ Fully supports TypeScript for type safety
+- ✅ Minimal and clean setup, perfect for learning or extending
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js 15 (App Router)** – Modern routing and file-based architecture
+- **TypeScript** – Strongly typed code for better developer experience
+- **TinyMCE Editor** – Feature-rich WYSIWYG editor
+- **Tailwind CSS** – Lightweight styling framework (optional)
+
+---
+
+## 🔑 Getting Your TinyMCE API Key
+
+To use TinyMCE, you need an API key. It’s free for basic usage.
+
+1. Visit [https://www.tiny.cloud](https://www.tiny.cloud)
+2. Click **"Get Started for Free"**
+3. Sign up and retrieve your API key
+4. Replace `"your-api-key-here"` in the code with your actual API key:
+
+   ```html
+   <EditorNoSSR apiKey="your-api-key-here" />
+
+---
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+git clone https://github.com/your-username/tinymce-nextjs15-app-router-demo.git 
+cd tinymce-nextjs15-app-router-demo 
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+app/ └── page.tsx ← Main page with TinyMCE integration
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 👤 Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Developed with ❤️ by **Lucas Fernandes**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+If you found this project helpful, please consider giving it a ⭐ and sharing it with your peers.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- GitHub: [@Anchard](https://github.com/Anchard)  
+- LinkedIn: [@Lucas Fernandes](https://www.linkedin.com/in/lucas-fernandes-886529193/)
